@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         DOCKER_IMAGE = 'your-dockerhub-username/jenkins-demo'
-        DOCKER_CREDENTIALS = 'dockerhub-credentials'
+        DOCKER_CREDENTIALS = 'dockerhub_credentials'
     }
 
     stages {
