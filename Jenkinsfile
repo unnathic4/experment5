@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        DOCKER_IMAGE = 'unnathic/experment5'
+        DOCKER_IMAGE = 'https://hub.docker.com/repository/docker/unnathic/experment5/general'
         DOCKER_CREDENTIALS = 'dockerhub_credentials'
     }
 
